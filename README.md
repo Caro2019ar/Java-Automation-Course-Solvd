@@ -1,5 +1,7 @@
 # Java-Automation-Course-Solvd
 
-### Branches
+### Branch: classes15
 
-* classes15: lecture on 10/March, 15 classes exercise
+* Supermarket UML:
+
+<img src="./Solvd-Exerc15Classes.jpg">
