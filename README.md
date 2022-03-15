@@ -1,5 +1,5 @@
 # Java-Automation-Course-Solvd
 
-### Branches
+### Branch: algorithms
 
-* classes15: lecture on 10/March, 15 classes exercise
+* Quicksort algorithm
