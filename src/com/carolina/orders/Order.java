@@ -10,6 +10,13 @@ public class Order {
     private OrderStatus orderStatus;
     private List<OrderItem> orderItemsList;
 
+    public Order(Long orderId, Date orderDate, OrderStatus orderStatus, List<OrderItem> orderItemsList) {
+        this.orderId = orderId;
+        this.orderDate = orderDate;
+        this.orderStatus = orderStatus;
+        this.orderItemsList = orderItemsList;
+    }
+
     public Order(Date orderDate, OrderStatus orderStatus, List<OrderItem> orderItemsList) {
         this.orderDate = orderDate;
         this.orderStatus = OrderStatus.OPEN;

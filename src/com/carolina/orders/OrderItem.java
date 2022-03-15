@@ -9,13 +9,13 @@ public class OrderItem implements CalculateOrderItem{
     private Integer quantity;
     private Double discount;
 
-    public OrderItem(Long orderId, Product product, Integer quantity) {
+
+    public OrderItem(Long orderId, Product product, Integer quantity, Double discount) {
         this.orderId = orderId;
         this.product = product;
         this.quantity = quantity;
+        this.discount = discount;
     }
-
-
 
     public Long getOrderId() {
         return orderId;

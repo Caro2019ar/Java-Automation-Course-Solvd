@@ -9,6 +9,12 @@ public class Supplier extends Person {
     private Long supplierId;
     private Date startDate;
 
+    public Supplier(String name, String email, Address address, Long supplierId, Date startDate) {
+        super(name, email, address);
+        this.supplierId = supplierId;
+        this.startDate = startDate;
+    }
+
     public Supplier(String name, String email, Address address, Date startDate) {
         super(name, email, address);
         this.startDate = startDate;

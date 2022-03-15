@@ -17,6 +17,13 @@ public class Employee extends Person {
         this.userRole = AppUserRole.USER;
     }
 
+    public Employee(String name, String email, Address address, Long employeeId, Date startDate, AppUserRole userRole) {
+        super(name, email, address);
+        this.employeeId = employeeId;
+        this.startDate = startDate;
+        this.userRole = userRole;
+    }
+
     public AppUserRole getUserRole() {
         return userRole;
     }

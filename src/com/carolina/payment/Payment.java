@@ -8,6 +8,12 @@ public class Payment {
     private PaymentMethod paymentMethod;
     private Date paymentDay;
 
+    public Payment(Long paymentId, PaymentMethod paymentMethod, Date paymentDay) {
+        this.paymentId = paymentId;
+        this.paymentMethod = paymentMethod;
+        this.paymentDay = paymentDay;
+    }
+
     public Payment(PaymentMethod paymentMethod, Date paymentDay) {
         this.paymentMethod = paymentMethod;
         this.paymentDay = paymentDay;
