@@ -5,19 +5,13 @@ import java.util.Date;
 
 public class Payment {
     private Long paymentId;
-    private PaymentMethod paymentMethod;
     private Date paymentDay;
 
-    public Payment(Long paymentId, PaymentMethod paymentMethod, Date paymentDay) {
+    public Payment(Long paymentId, Date paymentDay) {
         this.paymentId = paymentId;
-        this.paymentMethod = paymentMethod;
         this.paymentDay = paymentDay;
     }
 
-    public Payment(PaymentMethod paymentMethod, Date paymentDay) {
-        this.paymentMethod = paymentMethod;
-        this.paymentDay = paymentDay;
-    }
 
     public Date getPaymentDay() {
         return paymentDay;
@@ -32,13 +26,7 @@ public class Payment {
     }
 
 
-    public PaymentMethod getPaymentMethod() {
-        return paymentMethod;
-    }
 
-    public void setPaymentMethod(PaymentMethod paymentMethod) {
-        this.paymentMethod = paymentMethod;
-    }
 
     @Override
     public boolean equals(Object o) {
