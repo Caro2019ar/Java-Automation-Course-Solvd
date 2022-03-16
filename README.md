@@ -2,4 +2,5 @@
 
 ### Branches
 
-* classes15: lecture on 10/March, 15 classes exercise
+* classes15: lecture on 10/March, OOP, access level modifiers
+* algorithms: lecture on 3/March, control flow statements, quicksort study
