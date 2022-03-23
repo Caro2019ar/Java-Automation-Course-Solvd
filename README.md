@@ -1,6 +1,5 @@
 # Java-Automation-Course-Solvd
 
-### Branches
+### Branch: exceptions-with-log4j
 
-* classes15: lecture on 10/March, OOP, access level modifiers
-* algorithms: lecture on 3/March, control flow statements, quicksort study
+* Checked exceptions with logging from Log4J. Log4J version on pom.xml

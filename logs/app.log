@@ -1,0 +1,5 @@
+
+2022-03-23 10:31:15,498 INFO c.c.l.LoggerExample [main] Start to read database...
+2022-03-23 10:31:15,512 INFO c.c.l.LoggerExample [main] Closing DB
+2022-03-23 10:31:15,513 ERROR c.c.l.LoggerExample [main] com.caro.exceptions.UnreadableException
+2022-03-23 10:47:39,640 DEBUG c.c.l.LoggerExample [main] Debug from logger. File: java.io.FileWriter@73cd37c0
