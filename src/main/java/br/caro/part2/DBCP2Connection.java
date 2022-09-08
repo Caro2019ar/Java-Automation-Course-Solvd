@@ -1,9 +1,11 @@
 package br.caro.part2;
 
-import br.caro.part2.bef.ConnPool;
-import org.apache.commons.dbcp2.*;
 
 
+
+
+
+import org.apache.commons.dbcp2.BasicDataSource;
 
 import java.sql.Connection;
 import java.sql.ResultSet;
@@ -12,14 +14,13 @@ import java.sql.Statement;
 
 
 public class DBCP2Connection {
-  //  private static volatile DBCP2Connection dataSource;
 
     private static BasicDataSource dataSource = null;
 
     static {
         dataSource.setUrl("jdbc:mysql://localhost:3306/empdb?useSSL=false");
-        dataSource.setUsername(System.getenv(ENV_USER));
-        dataSource.setPassword(System.getenv(ENV_PASSWORD));
+        dataSource.setUsername("root");
+        dataSource.setPassword("root");
 
         dataSource.setMinIdle(1);
         dataSource.setMaxIdle(5);
@@ -29,7 +30,7 @@ public class DBCP2Connection {
 
     public static BasicDataSource getInstance() {
         if (dataSource == null) {
-            synchronized (ConnPool.class) {
+            synchronized (BasicDataSource.class) {
                 if (dataSource == null) {
                     dataSource = new BasicDataSource();
                 }

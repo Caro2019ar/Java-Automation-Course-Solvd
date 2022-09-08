@@ -20,8 +20,6 @@ public class Part3Main {
         threadExec.execute(connect3);
         threadExec.execute(connect4);
         threadExec.execute(connect5);
-
-
         threadExec.execute(connect6);
         threadExec.execute(connect7);
         threadExec.shutdown();
