@@ -1,24 +1,8 @@
-# Statements exercise
+--# Statements exercise
 
-### Insertion
-
-[//]: # (  10 statements for insertion.)
-
-[//]: # (  10 statements for updating.)
-
-[//]: # (  10 statements for deletions.)
-
-[//]: # (  5 alter table.)
-
-[//]: # (  1 big statement to join all tables in the database.)
-
-[//]: # (  5 statements with left, right, inner, outer joins.)
-
-[//]: # (  7 statements with aggregate functions and group by and without having.)
-
-[//]: # (  7 statements with aggregate functions and group by and with having.)
-
+--### Insertion
 * 10 statements for insertion
+
 INSERT INTO sakila.city (city_id, city, country_id, last_update) VALUES (601, 'Buenos Aires', 6, '2022-09-08 11:12:25');
 INSERT INTO sakila.city (city_id, city, country_id, last_update) VALUES (602, 'Pilar', 6, '2022-09-08 11:19:00');
 INSERT INTO sakila.city (city_id, city, country_id, last_update) VALUES (603, 'Gualeguay', 6, '2022-09-08 11:20:00');
@@ -30,9 +14,10 @@ INSERT INTO sakila.actor (actor_id, first_name, last_name, last_update) VALUES (
 INSERT INTO sakila.actor (actor_id, first_name, last_name, last_update) VALUES (203, 'TOM', 'CRUISE', '2022-09-08 00:05:00');
 INSERT INTO sakila.actor (actor_id, first_name, last_name, last_update) VALUES (204, 'WINONA', 'RIDER', '2022-09-08 00:07:02');
 
-### Updating
+--### Updating
 
 * 10 statements for updating
+
   UPDATE sakila.customer SET last_name = 'JOHN' WHERE customer_id=2;
   UPDATE sakila.customer SET email = 'MARY.OHN@gmail.com' WHERE customer_id=592;
   UPDATE sakila.customer SET active = 0 WHERE first_name = 'AARON';
@@ -44,7 +29,7 @@ INSERT INTO sakila.actor (actor_id, first_name, last_name, last_update) VALUES (
   UPDATE sakila.film SET description = 'A Fateful Reflection of a Waitress And a Boat' WHERE film_id=998;
   UPDATE sakila.film SET release_year = 2007 WHERE film_id=882;
 
-### Deletion
+--### Deletion
 * 10 statements for deletions.
 
 * 5 alter table.
