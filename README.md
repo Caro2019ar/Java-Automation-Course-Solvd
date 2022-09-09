@@ -6,3 +6,5 @@
 * algorithms:  control flow statements, quicksort study
 * exceptions-with-log4j: checked exceptions with logging (Log4J) 
 * threads: future, multithread and connection pool to database
+* DDL_DML: statements for SQL-database
+* dao_pattern: mysql connection and DAO pattern
