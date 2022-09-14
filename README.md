@@ -8,3 +8,4 @@
 * threads: future, multithread and connection pool to database
 * DDL_DML: statements for SQL-database
 * dao_pattern: mysql connection and DAO pattern
+* dom_sax_stax: models to work with XML infosets
