@@ -1,10 +1,5 @@
 # Java-Automation-Course-Solvd
 
-### Branches
+### DOM, SAX and StAX
 
-* classes15:  OOP, access level modifiers
-* algorithms:  control flow statements, quicksort study
-* exceptions-with-log4j: checked exceptions with logging (Log4J) 
-* threads: future, multithread and connection pool to database
-* DDL_DML: statements for SQL-database
-* dao_pattern: mysql connection and DAO pattern
+* Reading XML file with DOM and StAX streaming.
