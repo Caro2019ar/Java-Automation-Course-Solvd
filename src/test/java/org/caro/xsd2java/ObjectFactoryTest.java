@@ -42,7 +42,7 @@ public class ObjectFactoryTest {
         users.user.add(user3);
     }
 
-    @Test(priority = 1)
+    @Test
     public void testMarshalUsers() throws JAXBException {
         JAXBContext jaxbContext = JAXBContext.newInstance(Users.class);
         Marshaller marshaller = jaxbContext.createMarshaller();
@@ -51,7 +51,7 @@ public class ObjectFactoryTest {
         marshaller.marshal(users, new File("src/main/resources/marshalling.xml"));
     }
 
-    @Test(priority = 2)
+    @Test(dependsOnMethods = "testMarshalUsers")
     public void testUnmarshalXML() throws JAXBException {
         File file = new File("src/main/resources/marshalling.xml");
         JAXBContext context = JAXBContext.newInstance(Users.class);
