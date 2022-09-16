@@ -9,3 +9,4 @@
 * DDL_DML: statements for SQL-database
 * dao_pattern: mysql connection and DAO pattern
 * dom_sax_stax: models to work with XML infosets
+* jaxb: using XSD schema to create java objects (list of objects) and from java to XML
